@@ -59,7 +59,7 @@ const Detail = ({
           </div>
         ) : (
           <div className="w-full m-auto">
-            {data[0].thumbnails.map((info) => (
+            {data[0].thumbnails.map((info: any) => (
               <>
                 <InfoDetail
                   chapters={data[0].listChapters}
