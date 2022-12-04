@@ -11,7 +11,7 @@ import useWidthSize from "../hooks/useWidthSize";
 import Sidebar from "../components/Sidebar/Sidebar";
 import { baseApi } from "../constant/constant";
 import MainLayout from "../components/LayOut/MainLayout";
-
+import MegaTitle from "./title";
 const Category: React.FC = () => {
   const [genres, setGenres] = useState<Genres[]>([]);
   const [page, setPage] = useState<number>(1);
@@ -53,6 +53,11 @@ const Category: React.FC = () => {
   return (
     <>
       <MainLayout>
+        <MegaTitle
+          title="Comics App | Thể loại truyện"
+          description="Thể loại truyện"
+          image="https://firebasestorage.googleapis.com/v0/b/nhattruyen-af981.appspot.com/o/Screenshot%202022-12-02%20094444.jpg?alt=media&token=adf77c98-b5fc-4b57-aa31-bf1530994db9"
+        />
         <div className="text-center pb-4 h-auto">
           {size.width && size.width < 1024 && (
             <>
