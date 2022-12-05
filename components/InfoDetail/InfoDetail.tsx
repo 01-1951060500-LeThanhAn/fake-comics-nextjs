@@ -13,14 +13,11 @@ import {
   AiFillTags,
   AiOutlineLink,
 } from "react-icons/ai";
-// import { FacebookShareButton, TwitterShareButton } from "react-share";
-// import { FacebookIcon, TwitterIcon } from "react-share";
+
 import { IoMdStar } from "react-icons/io";
 import { MdStarRate } from "react-icons/md";
 import { FaRegComments } from "react-icons/fa";
 import { AiTwotoneFileText } from "react-icons/ai";
-// import Comment from "../Comment/Comment";
-
 import { toast } from "react-toastify";
 import { addDoc, collection, Timestamp } from "firebase/firestore";
 // import { addComicHistory } from "../../storeActions/history";
