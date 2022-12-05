@@ -288,7 +288,7 @@ const InfoDetail: React.FC<Infos> = ({ info, slug, chapters }) => {
                       {chapter.title}
                     </p>
                     <p className="text-[15px] cursor-pointer">
-                      {info.name.length > 15 && size.width && size.width < 450
+                      {info.name.length > 15 && size.width && size.width < 600
                         ? info.name.substring(0, 14)
                         : info.name}
                     </p>
